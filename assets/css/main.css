@@ -3299,6 +3299,7 @@ input, select, textarea {
 				-ms-transform: translateX(0);
 				transform: translateX(0);
 			}
+		
 
 	}
 
@@ -3579,6 +3580,10 @@ input, select, textarea {
 			
 			.modal img {
 				width: 90%;
+			}
+			
+			#slideshow4 img {
+				height: 400px;
 			}
 			
 			.modal h4 {
