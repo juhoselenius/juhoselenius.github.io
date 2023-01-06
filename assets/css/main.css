@@ -159,6 +159,7 @@ input, select, textarea {
 	h4 {
 		font-size: 1.25em;
 		line-height: 1.5em;
+		text-align: center;
 	}
 
 	h5 {
@@ -2664,11 +2665,13 @@ input, select, textarea {
 		}
 
 		.features article .image {
-			display: inline-block;
-			padding-right: 2.5em;
+			display: block;
+			padding-right: 0em;
 			vertical-align: middle;
-			width: 48%;
-			cursor: pointer;
+			width: 65%;
+			margin: 0 0 2.25em 0;
+			margin-left: auto;
+			margin-right: auto;
 		}
 
 			.features article .image img {
@@ -2689,6 +2692,14 @@ input, select, textarea {
 		.features article .icons {
 			padding-top: 0.5em;
 			padding-left: 0.5em;
+		}
+		
+		.features p {
+			margin: 0 0 1.6875em 0;
+		}
+		
+		.features article ul {
+			margin: 0 0 1.6875em 0;
 		}
 
 /* Header */
@@ -3035,11 +3046,11 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		background: #fafafa;
+		background: #131316;
 		border-top: 0;
 		color: #c0c0c0;
 		overflow: hidden;
-		padding: 4em 0 2em 0;
+		padding: 0.5em 0 0.5em 0;
 	}
 
 		#footer .copyright {
